@@ -9,11 +9,12 @@
   box-sizing: border-box;
 }
 .head{
-  background-color: darkorange;
+  
   text-align: center;
   background-color: rgb(1, 145, 145);
   color:whitesmoke;
-  height: 33px;
+  height: 35px;
+  padding-top: -50;
 
 }
 
@@ -24,16 +25,17 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin: 0;
+  margin-top: 0;
   font-family: 'Lato', sans-serif;
+  
 }
 
 .container {
   margin: 30px auto;
 
-  width: 340px;
+  width: 330px;
 
-  width: 350px;
+  
 
 }
 
