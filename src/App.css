@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 :root {
@@ -29,15 +30,13 @@ body {
 
 .container {
   margin: 30px auto;
-  width: 350px;
-  
+  width: 340px;
 }
 
 h1 {
   letter-spacing: 1px;
   margin: 0;
 }
-
 
 h3 {
   border-bottom: 1px solid #bbb;
@@ -176,4 +175,5 @@ input[type='number'] {
   .container {
     width: 300px;
   }
+
 }
