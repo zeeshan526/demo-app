@@ -4,12 +4,17 @@ import { Balance } from './compnents/Balance';
 import { IncomeExpenses } from './compnents/incomeExpenses';
 import { Transactionlist } from './compnents/transactionlist';
 import { AddTransaction } from './compnents/addTransaction';
-import { GlobalProvider } from './context/GlobalState'
+
+
+import { GlobalProvider } from './context/GlobalState';
+
 import './App.css';
 
 function App() {
+
   return (
     
+
     <GlobalProvider>
     <div className="head"><Header/></div>
     <div className="container"></div>
@@ -18,7 +23,11 @@ function App() {
     <Transactionlist/>
     <AddTransaction/>
     </GlobalProvider>
-  );
+
+  
+   
+  )
+  
 }
 
 export default App;
